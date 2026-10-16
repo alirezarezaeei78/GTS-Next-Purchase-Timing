@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the associated GTS manuscript when using this research code."
+title: "GTS: Next-purchase timing with graph-temporal ensembles and selected inputs"
+type: software
+authors:
+  - family-names: Rezaei
+    given-names: A.
+  - family-names: Khalilpour
+    given-names: S. A.
+  - family-names: Seyedi
+    given-names: H. Kh.
+  - family-names: Taghirad
+    given-names: H. D.
+repository-code: "https://github.com/alirezarezaeei78/GTS-Next-Purchase-Timing"

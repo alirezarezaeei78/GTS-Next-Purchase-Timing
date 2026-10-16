@@ -1,0 +1,381 @@
+{
+  "selection": {
+    "features": 24,
+    "context": 5,
+    "groups": 0,
+    "validation_MAE": 6.538966778763243
+  },
+  "selected_features": [
+    "Count_30d",
+    "AvgGap_w5",
+    "AvgGap_w10",
+    "AvgGap_w3",
+    "AvgGap_w20",
+    "AvgGap",
+    "Count_7d",
+    "Transaction_Count",
+    "Days_Since_Last_Purchase",
+    "Spend_30d",
+    "Gap2Last",
+    "Spend_7d",
+    "GapStd_w5",
+    "GapStd_w3",
+    "Gap3Last",
+    "GapStd_w10",
+    "Gap4Last",
+    "Gap5Last",
+    "GapStd_w20",
+    "GapStd",
+    "CumSpend",
+    "AvgSpend_w20",
+    "AvgSpend",
+    "AvgSpend_w10"
+  ],
+  "training_rank_scores": {
+    "Days_Since_Last_Purchase": 0.15469882192526446,
+    "Transaction_Count": 0.16706056094662172,
+    "AvgGap": 0.20572154968496212,
+    "GapStd": 0.09005343636026174,
+    "CumSpend": 0.08137527983475852,
+    "AvgSpend": 0.055283460513950194,
+    "LastAmount": 0.041641536804355006,
+    "RelativeLastAmount": 0.01046089423585978,
+    "CustomerTenure": 0.004920086792098254,
+    "line_items": 0.041641536804355006,
+    "unique_products_in_event": 0.041641536804355006,
+    "quantity": 0.041641536804355006,
+    "sin_dow": 0.013083798478406577,
+    "cos_dow": 0.02621267325251369,
+    "sin_month": 0.0,
+    "cos_month": 0.0,
+    "Gap2Last": 0.13818118369012916,
+    "Gap3Last": 0.11958718077361906,
+    "Gap4Last": 0.11069508077363195,
+    "Gap5Last": 0.09921030343968203,
+    "AvgGap_w3": 0.2090036310770589,
+    "GapStd_w3": 0.11975609878364936,
+    "AvgSpend_w3": 0.04346337228314414,
+    "SpendStd_w3": 0.025046833392952616,
+    "AvgGap_w5": 0.22256295737200726,
+    "GapStd_w5": 0.12015302248615672,
+    "AvgSpend_w5": 0.046443422705270174,
+    "SpendStd_w5": 0.030940319455345297,
+    "AvgGap_w10": 0.21887310641964539,
+    "GapStd_w10": 0.1122646419579576,
+    "AvgSpend_w10": 0.05221709713313083,
+    "SpendStd_w10": 0.036366591953004936,
+    "AvgGap_w20": 0.20778367006136741,
+    "GapStd_w20": 0.09881090770106613,
+    "AvgSpend_w20": 0.05585395108393402,
+    "SpendStd_w20": 0.036459812667261594,
+    "Count_7d": 0.18893857265953512,
+    "Spend_7d": 0.13133196244259146,
+    "Count_30d": 0.24768407180634894,
+    "Spend_30d": 0.15285202589277389
+  },
+  "trials": [
+    {
+      "features": 1,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.6518388302945946
+    },
+    {
+      "features": 2,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.6273134297807506
+    },
+    {
+      "features": 3,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.6179978277013385
+    },
+    {
+      "features": 4,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.613484414312444
+    },
+    {
+      "features": 5,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.617835789208927
+    },
+    {
+      "features": 6,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.612407783494639
+    },
+    {
+      "features": 7,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.614799143235398
+    },
+    {
+      "features": 8,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.558065909796103
+    },
+    {
+      "features": 9,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.550548851518968
+    },
+    {
+      "features": 10,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.5564110841889764
+    },
+    {
+      "features": 11,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.5565704357031205
+    },
+    {
+      "features": 12,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.558290346770786
+    },
+    {
+      "features": 13,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.565220303808788
+    },
+    {
+      "features": 14,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.558175177691894
+    },
+    {
+      "features": 15,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.555423456440508
+    },
+    {
+      "features": 16,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.552189997954008
+    },
+    {
+      "features": 17,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.55755049639388
+    },
+    {
+      "features": 18,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.550661499480153
+    },
+    {
+      "features": 19,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.539058061478446
+    },
+    {
+      "features": 20,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.540420136626473
+    },
+    {
+      "features": 21,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.541115306594595
+    },
+    {
+      "features": 22,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.540040214455577
+    },
+    {
+      "features": 23,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.544400207700805
+    },
+    {
+      "features": 24,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.538966778763243
+    },
+    {
+      "features": 25,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.541871651185026
+    },
+    {
+      "features": 26,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.5438190964447545
+    },
+    {
+      "features": 27,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.539288893986959
+    },
+    {
+      "features": 28,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.539288893986959
+    },
+    {
+      "features": 29,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.539288893986959
+    },
+    {
+      "features": 30,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.539288893986959
+    },
+    {
+      "features": 31,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.548647781090185
+    },
+    {
+      "features": 32,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.544592814381415
+    },
+    {
+      "features": 33,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.546493848585332
+    },
+    {
+      "features": 34,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.543582164122189
+    },
+    {
+      "features": 35,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.550244228016605
+    },
+    {
+      "features": 36,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.549962985825012
+    },
+    {
+      "features": 37,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.550499934706458
+    },
+    {
+      "features": 38,
+      "context": 5,
+      "groups": 0,
+      "validation_MAE": 6.625351143984846
+    },
+    {
+      "features": 24,
+      "context": 5,
+      "groups": 2,
+      "validation_MAE": 6.5766458263506475
+    },
+    {
+      "features": 24,
+      "context": 5,
+      "groups": 3,
+      "validation_MAE": 6.613729350599206
+    },
+    {
+      "features": 24,
+      "context": 5,
+      "groups": 4,
+      "validation_MAE": 6.624911170536594
+    },
+    {
+      "features": 24,
+      "context": 5,
+      "groups": 5,
+      "validation_MAE": 6.594827078515155
+    },
+    {
+      "features": 24,
+      "context": 5,
+      "groups": 6,
+      "validation_MAE": 6.628519295609288
+    },
+    {
+      "features": 24,
+      "context": 5,
+      "groups": 7,
+      "validation_MAE": 6.5989065262482365
+    },
+    {
+      "features": 24,
+      "context": 5,
+      "groups": 8,
+      "validation_MAE": 6.596522268742805
+    },
+    {
+      "features": 24,
+      "context": 1,
+      "groups": 0,
+      "validation_MAE": 6.558830971648349
+    },
+    {
+      "features": 24,
+      "context": 2,
+      "groups": 0,
+      "validation_MAE": 6.558853016922693
+    },
+    {
+      "features": 24,
+      "context": 3,
+      "groups": 0,
+      "validation_MAE": 6.5607449693671525
+    },
+    {
+      "features": 24,
+      "context": 4,
+      "groups": 0,
+      "validation_MAE": 6.5491433102002095
+    }
+  ],
+  "budget": {
+    "seed": 42,
+    "max_train_rows": 20000,
+    "max_validation_rows": 12000,
+    "probe_iterations": 80,
+    "max_groups": 8
+  },
+  "objective": "Validation MAE of a boosting probe; test labels are not an input",
+  "scope": "All nonconstant numerical candidates optional; coordinate search; no claim of global optimality"
+}

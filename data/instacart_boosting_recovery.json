@@ -1,0 +1,38 @@
+{
+  "source": "Inference from five archived GTS boosting member joblib fits; no retraining",
+  "sklearn": "1.7.1",
+  "checks": [
+    {
+      "seed": 42,
+      "validation_mae": 6.535041659401679,
+      "archived_validation_mae": 6.535041659401679
+    },
+    {
+      "seed": 7,
+      "validation_mae": 6.535913813489446,
+      "archived_validation_mae": 6.535913813489446
+    },
+    {
+      "seed": 1400,
+      "validation_mae": 6.5056443054647435,
+      "archived_validation_mae": 6.5056443054647435
+    },
+    {
+      "seed": 2026,
+      "validation_mae": 6.572465915010465,
+      "archived_validation_mae": 6.572465915010465
+    },
+    {
+      "seed": 31337,
+      "validation_mae": 6.5545725147450264,
+      "archived_validation_mae": 6.5545725147450264
+    }
+  ],
+  "metrics": {
+    "mae_days": 7.619681134631651,
+    "rmse_days": 14.777838364191737,
+    "error_lt_1_pct": 17.933657503249723,
+    "error_lt_2_pct": 33.417745895719996,
+    "error_lt_3_pct": 44.6603437484955
+  }
+}

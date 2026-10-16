@@ -1,0 +1,191 @@
+{
+  "experiment": "Fresh matched PyTorch fixed/adaptive GTS, full Instacart same-item cohort",
+  "n_pairs": 103855,
+  "n_customers": 25508,
+  "seeds": [
+    42,
+    7,
+    1400,
+    2026,
+    31337
+  ],
+  "models": {
+    "fixed": {
+      "ensemble": {
+        "MAE": 7.291317685133924,
+        "RMSE": 14.41057638202083,
+        "within_1_pct": 18.310143950700496,
+        "within_2_pct": 32.44908767030957,
+        "within_3_pct": 44.16157142169371
+      },
+      "seed_mean_MAE": 7.296395629447875,
+      "seed_sd_MAE": 0.0014157468784608334,
+      "seed_metrics": [
+        {
+          "seed": 42,
+          "MAE": 7.298815587049471,
+          "RMSE": 14.419760847181951,
+          "within_1_pct": 18.362139521448174,
+          "within_2_pct": 32.52419238361177,
+          "within_3_pct": 44.08742958933128
+        },
+        {
+          "seed": 7,
+          "MAE": 7.2952281911442185,
+          "RMSE": 14.415823394481258,
+          "within_1_pct": 18.336141736074335,
+          "within_2_pct": 32.39131481392326,
+          "within_3_pct": 44.12209330316306
+        },
+        {
+          "seed": 1400,
+          "MAE": 7.296361069799236,
+          "RMSE": 14.421674108982005,
+          "within_1_pct": 18.42568966347311,
+          "within_2_pct": 32.63203504886621,
+          "within_3_pct": 44.19816089740504
+        },
+        {
+          "seed": 2026,
+          "MAE": 7.295952996679317,
+          "RMSE": 14.414697437809647,
+          "within_1_pct": 18.16186028597564,
+          "within_2_pct": 32.16214915025757,
+          "within_3_pct": 43.78219633142362
+        },
+        {
+          "seed": 31337,
+          "MAE": 7.29562030256713,
+          "RMSE": 14.40042456228793,
+          "within_1_pct": 18.488276924558278,
+          "within_2_pct": 32.58389100187762,
+          "within_3_pct": 43.99691878099273
+        }
+      ]
+    },
+    "adaptive": {
+      "ensemble": {
+        "MAE": 7.294671119165223,
+        "RMSE": 14.454435505577047,
+        "within_1_pct": 17.520581580087622,
+        "within_2_pct": 31.922391796254395,
+        "within_3_pct": 43.9160367820519
+      },
+      "seed_mean_MAE": 7.301159720533626,
+      "seed_sd_MAE": 0.015923411660251498,
+      "seed_metrics": [
+        {
+          "seed": 42,
+          "MAE": 7.287928547349419,
+          "RMSE": 14.449131159777421,
+          "within_1_pct": 18.16763757161427,
+          "within_2_pct": 32.47412257474363,
+          "within_3_pct": 44.29926339608107
+        },
+        {
+          "seed": 7,
+          "MAE": 7.287577068277122,
+          "RMSE": 14.465493414735722,
+          "within_1_pct": 18.090607096432525,
+          "within_2_pct": 32.615666072890086,
+          "within_3_pct": 44.352221847768526
+        },
+        {
+          "seed": 1400,
+          "MAE": 7.322472622960476,
+          "RMSE": 14.469880706937722,
+          "within_1_pct": 16.80612392277695,
+          "within_2_pct": 31.125126378123348,
+          "within_3_pct": 43.40570988397285
+        },
+        {
+          "seed": 2026,
+          "MAE": 7.313535614046369,
+          "RMSE": 14.442327575861798,
+          "within_1_pct": 16.750276828270184,
+          "within_2_pct": 31.007654903471188,
+          "within_3_pct": 43.230465552934376
+        },
+        {
+          "seed": 31337,
+          "MAE": 7.29428475003474,
+          "RMSE": 14.465127389722054,
+          "within_1_pct": 18.068460834817778,
+          "within_2_pct": 32.27288045833133,
+          "within_3_pct": 44.143276683838046
+        }
+      ]
+    }
+  },
+  "selection": {
+    "features": 24,
+    "context": 5,
+    "groups": 0,
+    "validation_MAE": 6.538966778763243
+  },
+  "selected_features": [
+    "Count_30d",
+    "AvgGap_w5",
+    "AvgGap_w10",
+    "AvgGap_w3",
+    "AvgGap_w20",
+    "AvgGap",
+    "Count_7d",
+    "Transaction_Count",
+    "Days_Since_Last_Purchase",
+    "Spend_30d",
+    "Gap2Last",
+    "Spend_7d",
+    "GapStd_w5",
+    "GapStd_w3",
+    "Gap3Last",
+    "GapStd_w10",
+    "Gap4Last",
+    "Gap5Last",
+    "GapStd_w20",
+    "GapStd",
+    "CumSpend",
+    "AvgSpend_w20",
+    "AvgSpend",
+    "AvgSpend_w10"
+  ],
+  "bootstrap": {
+    "difference_fixed_minus_adaptive": -0.0033534340312988157,
+    "low": -0.00957938024132528,
+    "high": 0.002480168922941866,
+    "resamples": 2000,
+    "unit": "original customer"
+  },
+  "relative_MAE_reduction_pct": -0.04599215362863758,
+  "input_sha256": {
+    "fixed/42": "b4067f67bcb755e32e86d94199a73fb623d67d0a32f26ca66edf6c79de212d22",
+    "fixed/7": "25f78604d8f08f2676390082a3c094036290d42c72c8a2b2461668ddafe88eeb",
+    "fixed/1400": "701b3bd310e1a01e0df0ed45603cd58a9f30502be378f5ddfeeaf746cec53b9e",
+    "fixed/2026": "d05011e16936d57a7566df6d40bcadd2196b69c635a71e99a52861ed6fad2c00",
+    "fixed/31337": "12c6f48fce0a744a3a8c1678b0675d4ee0a34e4cb13e7f3f411c8081d48818b3",
+    "adaptive/42": "a172e628f48bceb5c5764e2912072fbc0b017cca9bfcfd4ec32befb22e2eff70",
+    "adaptive/7": "f776117e89ecba90632a25cd9f8fa0e93cfb1997a6b0a7585db182e45c2822db",
+    "adaptive/1400": "0397d24d29f3044e6b005f570d275ade3c97720946b456260abb5765cc9be4e7",
+    "adaptive/2026": "711b02989955a3c9eb0631f569fd14138ecdd9bb912d962b97e1869c0f28e0f7",
+    "adaptive/31337": "0e362fad063271014b7abcb9530da2a2170c4d80d1f4397392ef334a6ce06052"
+  },
+  "training_runs": 10,
+  "probe_configurations": 49,
+  "runtime": {
+    "torch": "2.2.2+cu121",
+    "cuda": "12.1",
+    "gpu": "NVIDIA GeForce RTX 3050",
+    "numpy": "1.26.4",
+    "batch_size": 1024,
+    "epoch_cap": 30,
+    "patience": 6,
+    "seed_list": [
+      42,
+      7,
+      1400,
+      2026,
+      31337
+    ],
+    "implementation": "Fresh matched PyTorch fixed/adaptive study, not bit-identical Keras reproduction"
+  }
+}

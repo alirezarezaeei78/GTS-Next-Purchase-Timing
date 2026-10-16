@@ -1,0 +1,12 @@
+{
+  "exact_arrays": [
+    "y",
+    "split",
+    "customer",
+    "group",
+    "x_num",
+    "profiles"
+  ],
+  "keys_exact": true,
+  "graph_max_difference_after_sign_alignment": 0.0
+}

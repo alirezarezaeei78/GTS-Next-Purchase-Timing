@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+work/
+reproduced/
+data/raw/
+*.pt
+*.weights.h5
+*.joblib
+*.log
+.env

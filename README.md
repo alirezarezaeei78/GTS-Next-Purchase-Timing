@@ -18,6 +18,8 @@ python verify_results.py
 
 `data/tail_diagnostics.csv` supplies Table 9 for all three public datasets, including Instacart. The verifier recomputes each dataset's 90th-percentile gap threshold, group size, and absolute-error concentration from its archived predictions. Instacart uses recorded same-item gaps; the daily datasets use customer-day gaps.
 
+To regenerate the manuscript's three-panel target distributions and grouped observed/predicted means, run `python make_diagnostic_plots.py`. Both figures include Instacart as panel C and retain every test outcome. The exact plotted values are saved in `data/gap_distribution_bins.csv` and `data/group_calibration_points.csv`. The separate Instacart model-comparison and fixed/adaptive experiment figures are also in `figures/`.
+
 ## Reproduce the new Instacart experiment
 
 Obtain `orders.csv`, `order_products__prior.csv`, and `order_products__train.csv` from the [original Instacart competition data](https://www.kaggle.com/competitions/instacart-market-basket-analysis/data). Put them in `data/raw/instacart/` and follow the provider's terms. The modeling target is the recorded number of days until the same item is purchased again, including intervening orders that omit it. It is not a real calendar date. The released relative-time field has an upper recorded value of 30 days.
@@ -66,6 +68,7 @@ These are retrospective terminal-history splits. Another customer's or product p
 | `stacking.py` | Grouped validation selection and refitting of the combiner |
 | `aggregate_adaptive.py` | Ensemble scoring, original-customer bootstrap, and figures |
 | `verify_results.py` | Self-contained checks of saved prediction evidence |
+| `make_diagnostic_plots.py` | Three-dataset distributions and grouped prediction diagnostics, including Instacart |
 | `data/` | Prediction records, metrics, selection trace, and preparation checks |
 | `figures/` | Original diagrams and result figures in editable vector formats |
 | `legacy/` | Archived fixed-input daily implementation and public-data CLI |

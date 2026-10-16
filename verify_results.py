@@ -37,7 +37,10 @@ best=min(selection['trials'],key=lambda r:(r['validation_MAE'],r['features'],r['
 assert best==selection['selection']==fresh['selection']
 assert len(selection['selected_features'])==best['features'];checks+=2
 tails=pd.read_csv(ROOT/'data/tail_diagnostics.csv').set_index('dataset')
+group_points=pd.read_csv(ROOT/'data/group_calibration_points.csv')
+hist_bins=pd.read_csv(ROOT/'data/gap_distribution_bins.csv')
 assert set(tails.index)=={'OnlineRetailII','TaFeng','Instacart'} and tails.index.is_unique
+assert set(group_points.dataset)==set(hist_bins.dataset)==set(tails.index)
 for dataset in tails.index:
     if dataset=='Instacart':
         d=pd.read_parquet(ROOT/'data/instacart_pairs_paired_predictions.parquet')
@@ -51,4 +54,11 @@ for dataset in tails.index:
         'upper_group_MAE':ae[selected].mean(),'remaining_MAE':ae[~selected].mean()}
     for key,value in expected.items():
         assert abs(tails.loc[dataset,key]-value)<1e-8,(dataset,key);checks+=1
-print(f'PASS: {checks} numerical checks, matched cohorts, ensemble averaging, validation selection, and three-dataset long-gap diagnostics.')
+    g=group_points[group_points.dataset==dataset];h=hist_bins[hist_bins.dataset==dataset]
+    assert len(g)==10 and len(h)==30 and list(g.group)==list(range(1,11))
+    assert h.n.sum()==len(y);checks+=1
+    assert abs(h.percent.sum()-100)<1e-8;checks+=1
+    assert g.n.sum()==len(y);checks+=1
+    assert abs(np.average(g.mean_observed,weights=g.n)-y.mean())<1e-8;checks+=1
+    assert abs(np.average(g.mean_predicted,weights=g.n)-p.mean())<1e-8;checks+=1
+print(f'PASS: {checks} numerical checks, matched cohorts, ensemble averaging, validation selection, and complete three-dataset diagnostics.')

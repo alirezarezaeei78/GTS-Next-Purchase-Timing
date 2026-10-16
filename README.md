@@ -16,6 +16,8 @@ python verify_results.py
 
 `data/verified_results.json` describes archived fixed-input experiments. `data/adaptive_instacart_results.json` describes a **fresh matched fixed/adaptive experiment**. They have separate runtimes and must not be mixed into a claim that a changed model produced an old score.
 
+`data/tail_diagnostics.csv` supplies Table 9 for all three public datasets, including Instacart. The verifier recomputes each dataset's 90th-percentile gap threshold, group size, and absolute-error concentration from its archived predictions. Instacart uses recorded same-item gaps; the daily datasets use customer-day gaps.
+
 ## Reproduce the new Instacart experiment
 
 Obtain `orders.csv`, `order_products__prior.csv`, and `order_products__train.csv` from the [original Instacart competition data](https://www.kaggle.com/competitions/instacart-market-basket-analysis/data). Put them in `data/raw/instacart/` and follow the provider's terms. The modeling target is the recorded number of days until the same item is purchased again, including intervening orders that omit it. It is not a real calendar date. The released relative-time field has an upper recorded value of 30 days.

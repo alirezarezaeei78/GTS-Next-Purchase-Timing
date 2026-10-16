@@ -36,4 +36,19 @@ selection=json.loads((ROOT/'data/input_selection_report.json').read_text())
 best=min(selection['trials'],key=lambda r:(r['validation_MAE'],r['features'],r['groups'],r['context']))
 assert best==selection['selection']==fresh['selection']
 assert len(selection['selected_features'])==best['features'];checks+=2
-print(f'PASS: {checks} numerical checks, matched cohorts, ensemble averaging, and validation selection.')
+tails=pd.read_csv(ROOT/'data/tail_diagnostics.csv').set_index('dataset')
+assert set(tails.index)=={'OnlineRetailII','TaFeng','Instacart'} and tails.index.is_unique
+for dataset in tails.index:
+    if dataset=='Instacart':
+        d=pd.read_parquet(ROOT/'data/instacart_pairs_paired_predictions.parquet')
+        y=d.actual_gap_h1.to_numpy();p=d.GTS_h1.to_numpy()
+    else:
+        d=pd.read_csv(ROOT/'data'/f'{dataset}_paired_predictions.csv')
+        y=d.actual_days.to_numpy();p=d.dgt_full.to_numpy()
+    q=np.quantile(y,.9);selected=y>=q;ae=np.abs(y-p)
+    expected={'test_q90':q,'upper_group_n':int(selected.sum()),
+        'upper_group_fraction':selected.mean(),'upper_group_error_share':ae[selected].sum()/ae.sum(),
+        'upper_group_MAE':ae[selected].mean(),'remaining_MAE':ae[~selected].mean()}
+    for key,value in expected.items():
+        assert abs(tails.loc[dataset,key]-value)<1e-8,(dataset,key);checks+=1
+print(f'PASS: {checks} numerical checks, matched cohorts, ensemble averaging, validation selection, and three-dataset long-gap diagnostics.')

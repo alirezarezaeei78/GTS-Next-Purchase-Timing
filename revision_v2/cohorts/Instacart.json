@@ -1,0 +1,45 @@
+{
+  "public_order_product_rows": 33819106,
+  "observable_baskets": 3346083,
+  "training_eligible_pairs": 578720,
+  "eligibility_minimum_training_purchases": 6,
+  "source_sha256": {
+    "orders.csv": "92a60ced67ac33bd82271f66ff9675374f69482d17a0e1442ba42caa8b3bff89",
+    "order_products__prior.csv": "27b59dc9cf0d485f55e64e0bc9c5d6fb077ae167f8dfeab9246a03b5b0186359",
+    "order_products__train.csv": "d27c4034883051c85e37c2cb0379fecbbeccad932970e171461aa99f18f75aea"
+  },
+  "time_unit": "recorded relative same-item days",
+  "cutoff_rule": "floor(.60/.70/.80/.90 times each original customer observable order count)",
+  "unreleased_test_baskets_excluded": true,
+  "dataset": "Instacart",
+  "events": 8566098,
+  "numerical_candidates": 46,
+  "original_customers": 76723,
+  "series": 578720,
+  "phase_counts": {
+    "0": {
+      "origins": 4552985,
+      "observed": 3974265
+    },
+    "1": {
+      "origins": 372896,
+      "observed": 206933
+    },
+    "2": {
+      "origins": 355079,
+      "observed": 201376
+    },
+    "3": {
+      "origins": 332993,
+      "observed": 183616
+    },
+    "4": {
+      "origins": 332707,
+      "observed": 204118
+    }
+  },
+  "sliding_training_windows": true,
+  "profile_fitting_unit": "one original customer",
+  "graph_fitting_phase": "training baskets only",
+  "seconds": 100.65527677536011
+}

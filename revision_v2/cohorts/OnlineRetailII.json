@@ -1,0 +1,49 @@
+{
+  "raw_rows": 1067371,
+  "missing_id_rows_removed_before_conversion": 243007,
+  "positive_identified_line_items": 603071,
+  "training_eligible_customers": 2135,
+  "source_sha256": {
+    "online_retail_II.parquet": "6e87be755a63e666820b35db2efa2d9d509a9cc67191dbec0ad68acd1f8bf85f"
+  },
+  "calendar_boundaries": [
+    "2009-12-01",
+    "2011-02-17",
+    "2011-05-02",
+    "2011-07-15",
+    "2011-09-27",
+    "2011-12-10"
+  ],
+  "time_unit": "calendar days",
+  "dataset": "OnlineRetailII",
+  "events": 24661,
+  "numerical_candidates": 48,
+  "original_customers": 2135,
+  "series": 2135,
+  "phase_counts": {
+    "0": {
+      "origins": 11598,
+      "observed": 9463
+    },
+    "1": {
+      "origins": 1032,
+      "observed": 386
+    },
+    "2": {
+      "origins": 1084,
+      "observed": 460
+    },
+    "3": {
+      "origins": 1025,
+      "observed": 429
+    },
+    "4": {
+      "origins": 1256,
+      "observed": 627
+    }
+  },
+  "sliding_training_windows": true,
+  "profile_fitting_unit": "one original customer",
+  "graph_fitting_phase": "training baskets only",
+  "seconds": 2.3786139488220215
+}

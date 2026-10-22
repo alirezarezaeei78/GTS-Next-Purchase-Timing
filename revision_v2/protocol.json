@@ -1,0 +1,134 @@
+{
+  "created_date": "2026-10-19",
+  "status": "protocol frozen before new test scoring",
+  "review_sha256": "86701d420d11413972c2353095eba90f86b68e17e2882383e15d485dbc89ec37",
+  "phases": [
+    "train",
+    "early_stop",
+    "input_selection",
+    "stack_fit",
+    "test"
+  ],
+  "phase_fractions": [
+    0,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "daily_split": "global calendar boundaries, completed training labels strictly before training boundary; no missing IDs; positive purchases only",
+  "instacart_split": "original-customer order boundaries shared by every product pair; observable baskets only; target is recorded relative same-item days, not calendar days",
+  "cohort": "daily: at least three purchases before training end; Instacart pair: at least six item purchases before original-customer training end; no future eligibility filter",
+  "origins": "all causal sliding training windows; first origin per series per later phase, chosen without future outcomes; incomplete targets retained for survival likelihood",
+  "seeds": [
+    42,
+    7,
+    1400,
+    2026,
+    31337
+  ],
+  "neural_backend": "PyTorch 2.2.2 CUDA, float32, minibatches held on host; no Keras fits",
+  "optimization": {
+    "batch_size": 4096,
+    "epochs": 20,
+    "patience": 4,
+    "learning_rate": 0.001,
+    "lr_scheduler": "ReduceLROnPlateau factor .5 patience 2"
+  },
+  "headline_loss": "MAE in original days; no percentile clipping; direct and residual parameterization available to all recurrent comparators",
+  "controller": "training-only mutual information with redundancy penalty; actual temporal encoder search; independent early-stop and input-selection phases; repeated per seed",
+  "stacking": "nonnegative simplex MAE linear program using stack_fit only; no arbitrary 40/400/.5% rules",
+  "baselines": [
+    "window mean",
+    "window median",
+    "last gap",
+    "boosting",
+    "LSTM direct and residual",
+    "GRU direct and residual",
+    "standalone graph-temporal encoder",
+    "DeepAR log-normal adaptation",
+    "neural Weibull AFT with incomplete intervals",
+    "Rebuilt NN MSE and matched MAE"
+  ],
+  "ablations": [
+    "fixed vs selected inputs on all three",
+    "zero graph",
+    "seeded random item vectors",
+    "no attention",
+    "last-step pooling",
+    "direct only vs residual selection",
+    "non-neural member ensemble",
+    "five-seed averaging vs individual runs",
+    "no customer groups: complete-system refit on each seed; exact cached identity if chosen K already zero"
+  ],
+  "graph_grid": {
+    "max_products": [
+      100,
+      300,
+      600,
+      1000
+    ],
+    "dimensions": [
+      8,
+      16,
+      32
+    ]
+  },
+  "loss_grid": {
+    "tau": [
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7
+    ],
+    "training_cap": [
+      null,
+      0.99
+    ]
+  },
+  "multistep": "clean positive purchase-day events, five horizon-specific metrics; unified PyTorch Transformer with both direct and recursive forecasts; matching origins",
+  "statistics": "original-customer resampling for MAE/RMSE/MedAE and signed bias; all predeclared comparator pairs; Holm adjustment; no DM claim for unordered customer outcomes",
+  "costs": "measured training, selection, inference, parameters and artifact sizes; asymmetric early/late costs as explicitly hypothetical ratios, no measured marketing profit",
+  "paper_gate": "Do not edit manuscript until coding, audited reruns, and result aggregation complete. Never claim a selected variant wins unless actual frozen-test results show it.",
+  "hardware_amendment_before_primary_training": {
+    "basis": "training-only throughput benchmark; no selection or test metrics used",
+    "compared_batch_sizes": [
+      512,
+      2048,
+      4096
+    ],
+    "chosen": 4096,
+    "common_to_all_neural_models_and_datasets": true,
+    "largest_measured_cuda_bytes": 364010496
+  },
+  "sensitivity_seeds": [
+    42
+  ],
+  "main_and_structural_ablation_seeds": [
+    42,
+    7,
+    1400,
+    2026,
+    31337
+  ],
+  "sensitivity_scope": "Graph and log-loss grids replace/refit the encoder and refit full-system simplex weights, holding the other fitted members fixed; diagnostic, not full five-member loss retuning.",
+  "pre_analysis_comparator_amendment": {
+    "date": "2026-10-19",
+    "basis": "review asks for strong simple baselines; no new test metrics have been scored or inspected",
+    "rules": [
+      "training median",
+      "independently validation-selected window mean and median"
+    ],
+    "rule_lengths": [
+      1,
+      3,
+      5,
+      10,
+      20
+    ],
+    "selection_phase": 2,
+    "all_results_reported": true
+  }
+}

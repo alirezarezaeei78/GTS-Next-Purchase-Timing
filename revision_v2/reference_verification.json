@@ -1,0 +1,901 @@
+[
+  {
+    "key": "peng2005",
+    "doi": "10.1109/TPAMI.2005.159",
+    "title": [
+      "Feature selection based on mutual information criteria of max-dependency, max-relevance, and min-redundancy"
+    ],
+    "container": [
+      "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2005,
+          8
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "family": "Hanchuan Peng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Fuhui Long",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C.",
+        "family": "Ding",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "verified": true,
+    "source": "https://api.crossref.org/works/10.1109/TPAMI.2005.159",
+    "abstract": ""
+  },
+  {
+    "key": "rezaei2024",
+    "doi": "10.1109/ICRoM64545.2024.10903646",
+    "title": [
+      "Predicting Customer Behavior in Autonomous Retail Application: A Classification-Based Approach"
+    ],
+    "container": [
+      "2024 12th RSI International Conference on Robotics and Mechatronics (ICRoM)"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          17
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "given": "A.",
+        "family": "Rezaei",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Applied Robotics and AI Solutions (ARAS), K. N. Toosi University of Technology,Tehran,Iran"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Jahani",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Applied Robotics and AI Solutions (ARAS), K. N. Toosi University of Technology,Tehran,Iran"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "D. A.",
+        "family": "Nejad",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Applied Robotics and AI Solutions (ARAS), K. N. Toosi University of Technology,Tehran,Iran"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Mehrabi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Applied Robotics and AI Solutions (ARAS), K. N. Toosi University of Technology,Tehran,Iran"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "S. A.",
+        "family": "Khalilpour",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Applied Robotics and AI Solutions (ARAS), K. N. Toosi University of Technology,Tehran,Iran"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "H. Kh.",
+        "family": "Seyedi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Applied Robotics and AI Solutions (ARAS), K. N. Toosi University of Technology,Tehran,Iran"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "H. D.",
+        "family": "Taghirad",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Applied Robotics and AI Solutions (ARAS), K. N. Toosi University of Technology,Tehran,Iran"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "verified": true,
+    "source": "https://api.crossref.org/works/10.1109/ICRoM64545.2024.10903646",
+    "abstract": ""
+  },
+  {
+    "key": "tsai2004",
+    "doi": "10.1016/j.eswa.2004.02.005",
+    "title": [
+      "A purchase-based market segmentation methodology"
+    ],
+    "container": [
+      "Expert Systems with Applications"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2004,
+          8
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "given": "C.-Y.",
+        "family": "Tsai",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C.-C.",
+        "family": "Chiu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "verified": true,
+    "source": "https://api.crossref.org/works/10.1016/j.eswa.2004.02.005",
+    "abstract": ""
+  },
+  {
+    "key": "cheng2009",
+    "doi": "10.1016/j.eswa.2008.04.003",
+    "title": [
+      "Classifying the segmentation of customer value via RFM model and RS theory"
+    ],
+    "container": [
+      "Expert Systems with Applications"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2009,
+          4
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "given": "Ching-Hsue",
+        "family": "Cheng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "You-Shyang",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "verified": true,
+    "source": "https://api.crossref.org/works/10.1016/j.eswa.2008.04.003",
+    "abstract": ""
+  },
+  {
+    "key": "guo2009",
+    "doi": "10.1016/j.eswa.2008.08.059",
+    "title": [
+      "A multi-category inter-purchase time model based on hierarchical Bayesian theory"
+    ],
+    "container": [
+      "Expert Systems with Applications"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2009,
+          4
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "given": "Ruey-Shan",
+        "family": "Guo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "verified": true,
+    "source": "https://api.crossref.org/works/10.1016/j.eswa.2008.08.059",
+    "abstract": ""
+  },
+  {
+    "key": "yeh2009",
+    "doi": "10.1016/j.eswa.2008.07.018",
+    "title": [
+      "Knowledge discovery on RFM model using Bernoulli sequence"
+    ],
+    "container": [
+      "Expert Systems with Applications"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2009,
+          4
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "given": "I-Cheng",
+        "family": "Yeh",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "King-Jang",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tao-Ming",
+        "family": "Ting",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "verified": true,
+    "source": "https://api.crossref.org/works/10.1016/j.eswa.2008.07.018",
+    "abstract": ""
+  },
+  {
+    "key": "hiziroglu2013",
+    "doi": "10.1016/j.eswa.2013.05.052",
+    "title": [
+      "Soft computing applications in customer segmentation: State-of-art review and critique"
+    ],
+    "container": [
+      "Expert Systems with Applications"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2013,
+          11
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "given": "Abdulkadir",
+        "family": "Hiziroglu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "verified": true,
+    "source": "https://api.crossref.org/works/10.1016/j.eswa.2013.05.052",
+    "abstract": ""
+  },
+  {
+    "key": "hong2012",
+    "doi": "10.1016/j.eswa.2012.04.082",
+    "title": [
+      "Product recommendation with temporal dynamics"
+    ],
+    "container": [
+      "Expert Systems with Applications"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2012,
+          11
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "given": "Wenxing",
+        "family": "Hong",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lei",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tao",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "verified": true,
+    "source": "https://api.crossref.org/works/10.1016/j.eswa.2012.04.082",
+    "abstract": ""
+  },
+  {
+    "key": "rungruang2024",
+    "doi": "10.1016/j.eswa.2023.121449",
+    "title": [
+      "RFM model customer segmentation based on hierarchical approach using FCA"
+    ],
+    "container": [
+      "Expert Systems with Applications"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0004-5658-1454",
+        "authenticated-orcid": false,
+        "given": "Chongkolnee",
+        "family": "Rungruang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2945-3922",
+        "authenticated-orcid": false,
+        "given": "Pakwan",
+        "family": "Riyapan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5070-0772",
+        "authenticated-orcid": false,
+        "given": "Arthit",
+        "family": "Intarasit",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0006-7399-0932",
+        "authenticated-orcid": false,
+        "given": "Khanchit",
+        "family": "Chuarkham",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3062-4696",
+        "authenticated-orcid": false,
+        "given": "Jirapond",
+        "family": "Muangprathub",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "verified": true,
+    "source": "https://api.crossref.org/works/10.1016/j.eswa.2023.121449",
+    "abstract": ""
+  },
+  {
+    "key": "maasakkers2023",
+    "doi": "10.1016/j.eswa.2022.118795",
+    "title": [
+      "Next-basket prediction in a high-dimensional setting using gated recurrent units"
+    ],
+    "container": [
+      "Expert Systems with Applications"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2023,
+          2
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5929-2939",
+        "authenticated-orcid": false,
+        "given": "Luuk",
+        "family": "van Maasakkers",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7201-8523",
+        "authenticated-orcid": false,
+        "given": "Dennis",
+        "family": "Fok",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0412-4276",
+        "authenticated-orcid": false,
+        "given": "Bas",
+        "family": "Donkers",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "verified": true,
+    "source": "https://api.crossref.org/works/10.1016/j.eswa.2022.118795",
+    "abstract": ""
+  },
+  {
+    "key": "barbieri2024",
+    "doi": "10.1016/j.eswa.2024.123667",
+    "title": [
+      "Analysis and comparison of feature selection methods towards performance and stability"
+    ],
+    "container": [
+      "Expert Systems with Applications"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5389-7064",
+        "authenticated-orcid": false,
+        "given": "Matheus Cezimbra",
+        "family": "Barbieri",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4083-5881",
+        "authenticated-orcid": false,
+        "given": "Bruno Iochins",
+        "family": "Grisci",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8534-3480",
+        "authenticated-orcid": false,
+        "given": "M\u00e1rcio",
+        "family": "Dorn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "verified": true,
+    "source": "https://api.crossref.org/works/10.1016/j.eswa.2024.123667",
+    "abstract": ""
+  },
+  {
+    "key": "njoku2025",
+    "doi": "10.1016/j.eswa.2024.126191",
+    "title": [
+      "On many-objective feature selection and the need for interpretability"
+    ],
+    "container": [
+      "Expert Systems with Applications"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2599-9645",
+        "authenticated-orcid": false,
+        "given": "Uchechukwu F.",
+        "family": "Njoku",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3223-2186",
+        "authenticated-orcid": false,
+        "given": "Alberto",
+        "family": "Abell\u00f3",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0575-2389",
+        "authenticated-orcid": false,
+        "given": "Besim",
+        "family": "Bilalli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8621-316X",
+        "authenticated-orcid": false,
+        "given": "Gianluca",
+        "family": "Bontempi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "verified": true,
+    "source": "https://api.crossref.org/works/10.1016/j.eswa.2024.126191",
+    "abstract": ""
+  },
+  {
+    "key": "liang2025",
+    "doi": "10.1016/j.eswa.2025.127675",
+    "verified": true,
+    "title": [
+      "FeatureX: An explainable feature selection for deep learning"
+    ],
+    "container": [
+      "Expert Systems with Applications"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0007-1629-8832",
+        "authenticated-orcid": false,
+        "given": "Siyi",
+        "family": "Liang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8641-2660",
+        "authenticated-orcid": false,
+        "given": "Yang",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-4928-3316",
+        "authenticated-orcid": false,
+        "given": "Kun",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7035-6051",
+        "authenticated-orcid": false,
+        "given": "Yu",
+        "family": "Bai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "abstract": "",
+    "source": "https://api.crossref.org/works/10.1016/j.eswa.2025.127675"
+  },
+  {
+    "key": "bohrer2024",
+    "doi": "10.1016/j.eswa.2024.124518",
+    "title": [
+      "Enhancing classification with hybrid feature selection: A multi-objective genetic algorithm for high-dimensional data"
+    ],
+    "container": [
+      "Expert Systems with Applications"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2868-3838",
+        "authenticated-orcid": false,
+        "given": "Jonas da S.",
+        "family": "Bohrer",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8534-3480",
+        "authenticated-orcid": false,
+        "given": "M\u00e1rcio",
+        "family": "Dorn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "verified": true,
+    "source": "https://api.crossref.org/works/10.1016/j.eswa.2024.124518",
+    "abstract": ""
+  }
+]

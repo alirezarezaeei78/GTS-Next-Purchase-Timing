@@ -1,0 +1,6 @@
+{
+  "unpruned_five_seed_model_artifact_bytes": 6624261,
+  "unpruned_deployed_neural_parameters": 592495,
+  "includes": "selected direct/residual/average neural members and boosting models",
+  "excludes": "raw transactions, prepared feature arrays, shared graph products/embeddings"
+}

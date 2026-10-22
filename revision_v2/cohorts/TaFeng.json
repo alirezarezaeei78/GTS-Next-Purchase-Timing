@@ -1,0 +1,49 @@
+{
+  "raw_rows": 817741,
+  "missing_id_rows_removed_before_conversion": 0,
+  "positive_identified_line_items": 438149,
+  "training_eligible_customers": 7883,
+  "source_sha256": {
+    "ta_feng_all_months_merged.csv": "1d575e5d0b7207d7706d22ca56c7535886fff8175ca5537a310333a4ab7a7b67"
+  },
+  "calendar_boundaries": [
+    "2000-11-01",
+    "2001-01-12",
+    "2001-01-24",
+    "2001-02-05",
+    "2001-02-17",
+    "2001-03-01"
+  ],
+  "time_unit": "calendar days",
+  "dataset": "TaFeng",
+  "events": 71163,
+  "numerical_candidates": 48,
+  "original_customers": 7883,
+  "series": 7883,
+  "phase_counts": {
+    "0": {
+      "origins": 27836,
+      "observed": 19953
+    },
+    "1": {
+      "origins": 4645,
+      "observed": 2054
+    },
+    "2": {
+      "origins": 3392,
+      "observed": 1145
+    },
+    "3": {
+      "origins": 3917,
+      "observed": 1473
+    },
+    "4": {
+      "origins": 4345,
+      "observed": 1808
+    }
+  },
+  "sliding_training_windows": true,
+  "profile_fitting_unit": "one original customer",
+  "graph_fitting_phase": "training baskets only",
+  "seconds": 3.122873067855835
+}

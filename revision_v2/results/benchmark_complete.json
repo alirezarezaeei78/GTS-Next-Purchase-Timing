@@ -1,0 +1,17 @@
+{
+  "datasets": [
+    "OnlineRetailII",
+    "TaFeng",
+    "Instacart"
+  ],
+  "seeds": [
+    42,
+    7,
+    1400,
+    2026,
+    31337
+  ],
+  "torch": "2.2.2+cu121",
+  "device": "cuda",
+  "live_inference_verified_against_saved_predictions": true
+}

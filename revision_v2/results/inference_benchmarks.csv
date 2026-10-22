@@ -1,0 +1,16 @@
+dataset,model,batch_origins,median_batch_seconds,median_ms_per_origin,repetitions,incremental_forward_cuda_peak_bytes,live_predictions_match_saved,scope
+OnlineRetailII,GTS_5seed,627,0.3516051999758929,0.5607738436617111,5,49267712,True,prepared-history model evaluation; excludes raw feature/graph construction; all GTS members evaluated before combination
+OnlineRetailII,boosting_1seed,627,0.059095899981912225,0.09425183410193337,5,0,True,prepared-history model evaluation; excludes raw feature/graph construction; all GTS members evaluated before combination
+OnlineRetailII,boosting_5seed,627,0.30352310003945604,0.48408787885080706,5,0,True,prepared-history model evaluation; excludes raw feature/graph construction; all GTS members evaluated before combination
+OnlineRetailII,LSTM_1seed,627,0.053659999975934625,0.08558213712270275,5,28037120,True,prepared-history model evaluation; excludes raw feature/graph construction; all GTS members evaluated before combination
+OnlineRetailII,LSTM_5seed,627,0.2704663000185974,0.43136570975852856,5,47537152,True,prepared-history model evaluation; excludes raw feature/graph construction; all GTS members evaluated before combination
+TaFeng,GTS_5seed,1000,0.5003350999904796,0.5003350999904796,5,41164800,True,prepared-history model evaluation; excludes raw feature/graph construction; all GTS members evaluated before combination
+TaFeng,boosting_1seed,1000,0.057990700006484985,0.057990700006484985,5,0,True,prepared-history model evaluation; excludes raw feature/graph construction; all GTS members evaluated before combination
+TaFeng,boosting_5seed,1000,0.30147259996738285,0.30147259996738285,5,0,True,prepared-history model evaluation; excludes raw feature/graph construction; all GTS members evaluated before combination
+TaFeng,LSTM_1seed,1000,0.05239239998627454,0.05239239998627454,5,16265216,True,prepared-history model evaluation; excludes raw feature/graph construction; all GTS members evaluated before combination
+TaFeng,LSTM_5seed,1000,0.2779766999883577,0.2779766999883577,5,40204800,True,prepared-history model evaluation; excludes raw feature/graph construction; all GTS members evaluated before combination
+Instacart,GTS_5seed,1000,0.501426899980288,0.501426899980288,5,41124864,True,prepared-history model evaluation; excludes raw feature/graph construction; all GTS members evaluated before combination
+Instacart,boosting_1seed,1000,0.06411759997718036,0.06411759997718036,5,0,True,prepared-history model evaluation; excludes raw feature/graph construction; all GTS members evaluated before combination
+Instacart,boosting_5seed,1000,0.3302176999859512,0.3302176999859512,5,0,True,prepared-history model evaluation; excludes raw feature/graph construction; all GTS members evaluated before combination
+Instacart,LSTM_1seed,1000,0.05108430003747344,0.05108430003747344,5,40184832,True,prepared-history model evaluation; excludes raw feature/graph construction; all GTS members evaluated before combination
+Instacart,LSTM_5seed,1000,0.2562511999858543,0.2562511999858543,5,40184832,True,prepared-history model evaluation; excludes raw feature/graph construction; all GTS members evaluated before combination
